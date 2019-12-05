@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="71234" started-at="2019-12-05T11:45:59 EET" finished-at="2019-12-05T11:47:10 EET">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:SA.Runner.LGN_Runner@71423665]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:SA.Runner.REG_Runner@20398b7c]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="ChromeTest" duration-ms="71234" started-at="2019-12-05T11:45:59 EET" finished-at="2019-12-05T11:47:10 EET">
+      <class name="SA.Runner.REG_Runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:SA.Runner.REG_Runner@20398b7c]" name="setUpClass" is-config="true" duration-ms="15" started-at="2019-12-05T11:46:43 EET" finished-at="2019-12-05T11:46:43 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:SA.Runner.REG_Runner@20398b7c]" name="feature" duration-ms="26719" started-at="2019-12-05T11:46:43 EET" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-12-05T11:47:10 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Registration functionality of Social Alien(SA) social network web-application]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:SA.Runner.REG_Runner@20398b7c]" name="tearDownClass" is-config="true" duration-ms="5" started-at="2019-12-05T11:47:10 EET" finished-at="2019-12-05T11:47:10 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- SA.Runner.REG_Runner -->
+      <class name="SA.Runner.LGN_Runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:SA.Runner.LGN_Runner@71423665]" name="setUpClass" is-config="true" duration-ms="141" started-at="2019-12-05T11:45:59 EET" finished-at="2019-12-05T11:45:59 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:SA.Runner.LGN_Runner@71423665]" name="feature" duration-ms="44259" started-at="2019-12-05T11:45:59 EET" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-12-05T11:46:43 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login functionality of Social Alien(SA) social network web-application]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:SA.Runner.LGN_Runner@71423665]" name="tearDownClass" is-config="true" duration-ms="32" started-at="2019-12-05T11:46:43 EET" finished-at="2019-12-05T11:46:43 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- SA.Runner.LGN_Runner -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
